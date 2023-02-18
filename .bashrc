@@ -117,7 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=~/.local/bin/:$PATH
-alias gs='git status'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
